@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+#searchBox{
+    height: 70px;
+    width: 100%;
+    padding: 1rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#no-result{
+    color: red;
+    display: none;
+    text-align: center;
+    padding: 1rem;
+}
+
+#searchBox i{
+    font-size: 1.3rem;
+  position: absolute;
+  top: 35%;
+  right: 31%; 
+  border: none;
+  background-color: white;
+  transform: translateY(-3%);
+  border-radius: 50%;
+}
+
+#search{
+    padding: 2vh;
+    /* max-width: 300px; */
+    width: 40vw;
+    box-shadow: 0 0 0 0.3px;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 1rem;
+    
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+    padding: 2rem 0;
+}
+
+.card{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    padding: 1em;
+    border-radius: 2%;
+    background-color: white;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
+}
+
+.card img {
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    border-radius: 35%;
+}
+
+.card h1{
+    font-size: 1em;
+}
